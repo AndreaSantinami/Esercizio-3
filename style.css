@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+}
+.font{
+    
+        font-family: "Sniglet", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}
+section{
+    position: relative;
+    width: 500px;
+}
+
+.pulsante{
+    display: inline-block;
+    position: absolute;
+    border-radius: 50px;
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    opacity: 0;
+    transition-duration: 1000ms;
+}
+.save{
+    display: inline-block;
+    position: absolute;
+    color: white;
+    background-color: red;
+    right: 30px;
+    top: 50px;
+}
+
+.name {
+    display: inline-block;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.637);
+    left: 40px;
+    bottom: 30px;
+    width: 140px;
+    white-space: nowrap;            
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.share{
+    display: inline-block;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.637);
+    right: 100px;
+    bottom: 30px;
+}
+
+.more{
+    display: inline-block;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.637);
+    right: 25px;
+    bottom: 30px;
+}
+.share i{
+    transform: rotate(-90deg)
+}
+
+.name i{
+    transform: rotate(-45deg);
+}
+
+span{
+    margin-left: 5px;
+}
+
+section:hover .pulsante{
+    opacity: 1;
+
+}
